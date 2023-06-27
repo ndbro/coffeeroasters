@@ -1,0 +1,11 @@
+@mixin banner($bg, $radius, $padding, ){
+    background-color: $bg;
+    border-radius: $radius;
+    padding: $padding;
+}
+@mixin card($width, $padding, $bg, $radius){
+    width: $width;
+    padding: $padding;
+    background:$bg;
+    border-radius: $radius;
+}

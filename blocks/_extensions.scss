@@ -1,0 +1,36 @@
+%between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%center{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+%normalizeAncher {
+  list-style-type: none;
+
+  li {
+    display: inline-block;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+%descr {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+%title{
+  font-family: $fran;
+  font-weight: 900;
+}
